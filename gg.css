@@ -20,13 +20,10 @@
 
 }
 
-/* body{
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    margin: auto;
-}
-*/
+body{
+    background-color: indigo;
+    }
+   
 
 header {
     display: flex;
