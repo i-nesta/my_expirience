@@ -4,13 +4,21 @@
     width: 100vh;
     margin: auto;
 }
+header {
+    display: flex;
+    flex-direction: row;
+    min-height: 10vh;
+    margin: 0, auto;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(86, 29, 179), pink);
+}
 .navi{
     display: inline;
     text-align: center;
 
 }
 
-.nav {
+ul{
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-around;
@@ -23,21 +31,11 @@
 body{
     background-color: indigo;
     }
-   
-
-header {
-    display: flex;
-    /* display: inline; */
-    /* background-color: lavender; */
-    flex-direction: row;
-    min-height: 10vh;
-    margin: 0, auto;
-    width: 100%;
-    background: #5b47b4;
-    /* justify-content: center; */
+img{
+    width: 120px;
+}  
 
 
-}
 footer {
     display: flex;
     background-color: lavender;
