@@ -44,7 +44,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-height: 80vh;
+    min-height: 90vh;
     background-image: linear-gradient(to right, blue, pink );
 }
 
@@ -67,6 +67,7 @@ h1{
 .general{
     display: flex;
     flex-direction: column;
+    max-width: 60vw;
 }
 
 .sidebar{
