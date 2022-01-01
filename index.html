@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="navigation">
                 <li class="navi">Contacts</li>
                 <li class="navi">About me</li>
                 <li class="navi">Skills</li>
@@ -23,51 +23,79 @@
         </nav>
     </header>
     <main>
-        <img src="./cvfototwst.jpg" alt="my foto">
-        <h1>Nadezda Rodionova</h1>
-        <h2>Contacts</h2>
-        <div>
-            Moscow, Russia
-            <ul>
-                <li>e-mail: me@nestapro.ru</li>
-                <li>Discord: nesta#9761</li>
-            </ul>
+        <div class="top">
+            <img class="myfoto" src="./cvfototwst.jpg" alt="my foto">
+            <h1>Nadezda Rodionova</h1>
         </div>
-        <h2>About me</h2>
-        <div>
-            For over 10 years I have been working as a manager in merchandising. Implemented agency-based
-            contracts and manufacturing companies. I've always wondered how development works.
-            And now I decided that it was time to learn this. I am purposeful, motivated to learn new things.
-            My goal is to reach the junior developer level in the next year. I strive for a high level of knowledge.
-        </div>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML and CSS</li>
-            <li>Git</li>
-            <li>JavaScript basic</li>
-            <li>VSCode</li>
-        </ul>
-        <h2>Code Examples</h2>
-        <div>function tasknumbers2(){
+        <div class="over">
+            <div class="sidebar">
+
+                <div class="aside">
+                    <h2>Contacts</h2>
+                    <span>Moscow, Russia</span>
+                    <ul>
+                        <li>e-mail: me@nestapro.ru</li>
+                        <li>Discord: nesta#9761</li>
+                    </ul>
+                </div>
+                <div class="aside">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML and CSS</li>
+                        <li>Git</li>
+                        <li>JavaScript basic</li>
+                        <li>VSCode</li>
+                    </ul>
+                </div>
+                <div class="aside">
+                    <h2>Language</h2>
+                    <span>English A2</span>
+                </div>
+            </div>
+
+            <div class="general">
+                <div class="base">
+                    <h2>About me</h2>
+                    <span>
+                        For over 10 years I have been working as a manager in merchandising. Implemented agency-based
+                        contracts and manufacturing companies. I've always wondered how development works.
+                        And now I decided that it was time to learn this. I am purposeful, motivated to learn new
+                        things.
+                        My goal is to reach the junior developer level in the next year. I strive for a high level of
+                        knowledge.
+                    </span>
+                </div>
+
+
+                <div class="base">
+                    <h2>Code Examples</h2>
+                    <code><pre> 
+            function(){
             let counter =3;
             counter++
             alert (counter)
             }
-
-
-            function tasknumbers1(){
+            
+            function(){
             let apple="2"
             let orange="3"
             alert (+apple + +orange)
             }
-
-
-            function cicle1(){
-            for (let i = 0; i < 3; i++) { alert( `number ${i}!` ); } } </div>
-            <h2>Experience</h2>
-                <a>CV</a>
-            <h2>Education</h2>
-                <div>
+            
+            function(){
+            for (let i = 0; i < 3; i++)
+            { alert( `number ${i}!` ); } 
+            } 
+            </pre>
+             </code>
+                </div>
+                <div class="base">
+                    <h2>Experience</h2>
+                    <a>CV</a>
+                </div>
+                <div class="base">
+                    <h2>Education</h2>
+                    <pre>
                     2003-2005** University of the humanities and social sciences
 
                     *Psychology*
@@ -81,9 +109,11 @@
                     Rolling Scopes School
 
                     *JS / FRONT-END Developer*
+                </pre>
                 </div>
-            <h2>Language</h2>
-                <div>English A2</div>
+            </div>
+
+        </div>
     </main>
 
     <footer>
