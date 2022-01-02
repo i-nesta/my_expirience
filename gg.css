@@ -41,7 +41,6 @@ footer {
     background-image: linear-gradient(to right, rgb(195, 109, 239), #00e470);
     flex-direction: row;
     min-height: 5vh;
-    margin: 10px, auto;
     justify-content: space-evenly;
 }
 
